@@ -29,7 +29,7 @@ installer for the given CHANNEL. 'latest-standalone' does not support
 'InsiderFast' CHANNEL.
 </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.MSOfficeMacProduct</string>
+    <string>munkitest-hv.download.MSOfficeMacProduct</string>
     <key>MinimumVersion</key>
     <string>1.4</string>
     <key>Input</key>
