@@ -43,7 +43,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>io.github.hjuutilainen.download.CitrixWorkspace</string>
+	<string>munkitest-hv.download.CitrixWorkspace</string>
 	<key>Process</key>
 	<array>
 		<dict>
