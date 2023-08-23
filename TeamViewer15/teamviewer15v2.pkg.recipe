@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest version of TeamViewer.</string>
     <key>Identifier</key>
-    <string>munkitest-hv.pkg.TeamViewer15v2</string>
+    <string>munkitest-hv.pkg.TeamViewer15v3</string>
     <key>Input</key>
     <dict>
        <key>NAME</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>1.4.0</string>
     <key>ParentRecipe</key>
-    <string>munkitest-hv.download.TeamViewer15v2</string>
+    <string>munkitest-hv.download.TeamViewer15v3</string>
     <key>Process</key>
     <array>
         <dict>
