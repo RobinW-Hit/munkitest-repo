@@ -39,8 +39,6 @@
           <string>%RECIPE_CACHE_DIR%/payload</string>
           <key>pkg_payload_path</key>
           <string>%RECIPE_CACHE_DIR%/unpack/Payload.pkg/Payload</string>
-          <key>archive_format</key>
-          <string>zip</string
         </dict>
         <key>Processor</key>
         <string>PkgPayloadUnpacker</string>
