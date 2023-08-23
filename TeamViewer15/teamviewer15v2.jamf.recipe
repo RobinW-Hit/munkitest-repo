@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Packages the latest version of TeamViewer.</string>
     <key>Identifier</key>
-    <string>munkitest-hv.jamf.TeamViewer15v2</string>
+    <string>munkitest-hv.jamf.TeamViewer15v3</string>
     <key>Input</key>
     <dict>
       <key>NAME</key>
