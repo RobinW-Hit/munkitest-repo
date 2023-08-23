@@ -38,7 +38,7 @@
           <key>destination_path</key>
           <string>%RECIPE_CACHE_DIR%/payload</string>
           <key>pkg_payload_path</key>
-          <string>%RECIPE_CACHE_DIR%/unpack/Payload.pkg/Payload</string>
+          <string>%RECIPE_CACHE_DIR%/unpack/Payload.pkg/Payload/*.7z</string>
         </dict>
         <key>Processor</key>
         <string>PkgPayloadUnpacker</string>
