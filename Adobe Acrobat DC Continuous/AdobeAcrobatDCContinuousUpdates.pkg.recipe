@@ -50,11 +50,11 @@
           <true/>
           <key>destination_path</key>
           <string>%RECIPE_CACHE_DIR%/payload/Extract</string>
-          <key>pkg_payload_path</key>
+          <key>archive_path</key>
           <string>%RECIPE_CACHE_DIR%/payload/MUI.7z</string>
         </dict>
         <key>Processor</key>
-        <string>PkgPayloadUnpacker</string>
+        <string>Unarchiver</string>
       </dict>
       <dict>
         <key>Processor</key>
