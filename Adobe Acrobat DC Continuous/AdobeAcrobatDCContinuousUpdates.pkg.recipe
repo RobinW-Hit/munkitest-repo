@@ -38,7 +38,20 @@
           <key>destination_path</key>
           <string>%RECIPE_CACHE_DIR%/payload</string>
           <key>pkg_payload_path</key>
-          <string>%RECIPE_CACHE_DIR%/unpack/Payload.pkg/Payload/*.7z</string>
+          <string>%RECIPE_CACHE_DIR%/unpack/Payload.pkg/Payload/</string>
+        </dict>
+        <key>Processor</key>
+        <string>PkgPayloadUnpacker</string>
+      </dict>
+  <dict>
+        <key>Arguments</key>
+        <dict>
+          <key>purge_destination</key>
+          <true/>
+          <key>destination_path</key>
+          <string>%RECIPE_CACHE_DIR%/payload/Extract</string>
+          <key>pkg_payload_path</key>
+          <string>%RECIPE_CACHE_DIR%/payload/MUI.7zip/</string>
         </dict>
         <key>Processor</key>
         <string>PkgPayloadUnpacker</string>
