@@ -46,8 +46,8 @@
   <dict>
         <key>Arguments</key>
         <dict>
-          <key>purge_destination</key>
-          <true/>
+          <key>archive_format</key>
+          <string>zip</string>
 
           <key>destination_path</key>
           <string>%RECIPE_CACHE_DIR%/payload/Extract</string>
