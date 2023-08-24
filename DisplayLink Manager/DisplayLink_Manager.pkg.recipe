@@ -57,7 +57,7 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%RECIPE_CACHE_DIR%/DisplayLink Manager.pkg</string>
+                <string>%RECIPE_CACHE_DIR%/downloads/DisplayLink_Manager.pkg</string>
                 <key>app_path</key>
                 <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
             </dict>
