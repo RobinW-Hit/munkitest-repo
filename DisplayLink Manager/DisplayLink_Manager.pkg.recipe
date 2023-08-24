@@ -12,7 +12,7 @@
        <string>DisplayLink Manager</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>2.3</string>
+    <string>1.4.0</string>
     <key>ParentRecipe</key>
     <string>munkitest-hv.download.DisplayLink_Manager</string>
     <key>Process</key>
