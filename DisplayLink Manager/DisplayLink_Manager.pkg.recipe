@@ -34,7 +34,7 @@
             <key>Arguments</key>
             <dict>
                 <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%/Applications</string>
+                <string>%RECIPE_CACHE_DIR%/payload/%NAME%/Applications</string>
                 <key>pkg_payload_path</key>
                 <string>%RECIPE_CACHE_DIR%/unpack/DisplayLinkManagerApp.pkg/Payload</string>
                 <key>purge_destination</key>
@@ -47,7 +47,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/DisplayLink Manager.app/Contents/Info.plist</string>
+                <string>%RECIPE_CACHE_DIR%/payload/%NAME%/Applications/DisplayLink Manager.app/Contents/Info.plist</string>
             </dict>
         </dict>
           
