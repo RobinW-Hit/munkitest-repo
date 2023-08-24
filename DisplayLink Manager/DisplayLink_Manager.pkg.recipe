@@ -19,7 +19,7 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
+            <string>PkgPayloadUnpacker</string>
             <key>Arguments</key>
             <dict>
                 <key>flat_pkg_path</key>
