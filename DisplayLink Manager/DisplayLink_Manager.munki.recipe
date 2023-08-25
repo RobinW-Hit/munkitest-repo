@@ -38,6 +38,8 @@
 	<string>1.4.0</string>
 <key>force_munkiimport</key>
 <string>False</string>
+<key>extract_icon</key>
+<string>true</string>
 <key>version_comparison_key</key>
 			<string>%version%</string>
 	<key>ParentRecipe</key>
