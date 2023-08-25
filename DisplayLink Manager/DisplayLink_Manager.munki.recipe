@@ -36,6 +36,8 @@
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.4.0</string>
+<key>version_comparison_key</key>
+			<string>%version%</string>
 	<key>ParentRecipe</key>
 	<string>munkitest-hv.pkg.DisplayLink_Manager</string>
 	<key>Process</key>
@@ -48,8 +50,7 @@
                 	<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
-			<key>version_comparison_key</key>
-			<string>%version%</string>	
+				
 			</dict>
 			<key>Processor</key>
 			<string>MunkiImporter</string>
