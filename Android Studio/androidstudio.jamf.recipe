@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads latest version of Android Studio.</string>
+    <key>Identifier</key>
+    <string>munkitest-hv.jamf.androidstudio</string>
+    <key>Input</key>
+    <dict>
+       <key>NAME</key>
+       <string>Android Studio</string>
+       <key>prod_name</key>
+       <string>%NAME%</string>
+       <key>CATEGORY</key>
+       <string>Developer Tools</string>
+    </dict>
+    <key>ParentRecipe</key>
+    <string>munkitest-hv.pkg.AndroidStudio</string>
+    <key>MinimumVersion</key>
+    <string>2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>category</key>
+                <string>%CATEGORY%</string>
+            </dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_category</key>
+                <string>%CATEGORY%</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
