@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest version of Mozilla Firefox Standard Edition.</string>
     <key>Identifier</key>
-    <string>com.github.hitachivantara.download.mozillafirefox</string>
+    <string>munkitest-hv.download.Firefox</string>
     <key>Input</key>
     <dict>
        <key>NAME</key>
