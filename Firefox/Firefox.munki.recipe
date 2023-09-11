@@ -26,8 +26,10 @@
 			<string>Mozilla Corporation</string>
 			<key>display_name</key>
 			<string>Mozilla Firefox</string>
+			<key>category</key>
+			<string>Internet</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>Firefox</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
