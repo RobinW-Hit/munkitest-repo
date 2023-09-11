@@ -48,15 +48,7 @@
 				<string>%RECIPE_CACHE_DIR%/pkgroot/Applications/%app_name%</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>com.github.autopkg.novaksam-recipes.Processors/MinimumOSExtractor</string>
-			<key>Arguments</key>
-			<dict>
-				<key>input_plist_path</key>
-				<string>%pathname%/%app_name%/Contents/Info.plist</string>
-			</dict>
-		</dict>
+		
 		<dict>
 			<key>Processor</key>
 			<string>PkgCreator</string>
