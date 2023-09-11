@@ -27,7 +27,9 @@
 			<key>developer</key>
 			<string>Google</string>
 			<key>display_name</key>
-			<string>Chrome</string>
+			<string>Google Chrome</string>
+			<key>category</key>
+			<string>Internet</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
