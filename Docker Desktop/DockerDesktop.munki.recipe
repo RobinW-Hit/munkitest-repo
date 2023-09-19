@@ -28,8 +28,10 @@
 			<string>Docker Inc.</string>
 			<key>display_name</key>
 			<string>Docker Desktop</string>
-			<key>supported_architectures</key>
-			<string>x86_64</string>
+	<key>supported_architectures</key>
+	<array>
+		<string>x86_64</string>
+	</array>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
