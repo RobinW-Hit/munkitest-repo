@@ -74,4 +74,5 @@
             <string>%RECIPE_CACHE_DIR%/payload</string>
           </array>
 </dict>
+</dict>
 </plist>
