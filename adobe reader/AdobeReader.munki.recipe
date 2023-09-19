@@ -14,7 +14,7 @@ Additional notes:
 preflight script, looking to find a user's trash folder to copy the .app into.
 </string>
 	<key>Identifier</key>
-	<string>cmunkitest-hv.munki.AdobeReader</string>
+	<string>munkitest-hv.munki.AdobeReader</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
