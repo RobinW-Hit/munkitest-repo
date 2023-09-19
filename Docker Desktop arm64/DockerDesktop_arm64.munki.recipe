@@ -24,6 +24,8 @@ also remember to adjust the supported_architectures in your override.</string>
             </array>
             <key>description</key>
             <string>Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that lets you to build, share, and run containerized applications and microservices.</string>
+			<key>category</key>
+			<string>Utility</string>            
             <key>developer</key>
             <string>Docker Inc.</string>
             <key>display_name</key>
