@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>zoom.us</string>
+		<string>zoomclientformeetings</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -35,11 +35,13 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Zoom unifies cloud video conferencing, simple online meetings, and group messaging into one easy-to-use platform. Our solution offers the best video, audio, and wireless screen-sharing experience across multiple platforms.</string>
 			<key>developer</key>
 			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
-			<string>zoom.us</string>
+			<string>Zoom Client for Meetings</string>
+			<key>category</key>
+			<string>Communication</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
