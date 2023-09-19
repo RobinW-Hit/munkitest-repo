@@ -41,7 +41,7 @@
 	<key>MinimumVersion</key>
 	<string>1.4.0</string>
 	<key>ParentRecipe</key>
-	<string>munkitest-hv.pkg.dockerdesktoparm64</string>
+	<string>munkitest-hv.pkg.dockerdesktoparm64/string>
 	<key>Process</key>
 	<array>
 		<dict>
