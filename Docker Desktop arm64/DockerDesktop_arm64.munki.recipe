@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads latest VLC disk image and imports into Munki.
+
+This recipe defaults supported_architectures to both "x86_64" and "arm64" for
+the Universal download of VLC. If you override the default ARCHITECTURE value,
+also remember to adjust the supported_architectures in your override.</string>
+    <key>Identifier</key>
+    <string>munkitest-hv.munki.dockerdesktoparm64</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Docker Desktop arm64</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>apps/%NAME%</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>testing</string>
+            </array>
+            <key>description</key>
+            <string>Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that lets you to build, share, and run containerized applications and microservices.</string>
+            <key>developer</key>
+            <string>Docker Inc.</string>
+            <key>display_name</key>
+            <string>Docker Desktop</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>supported_architectures</key>
+            <array>
+                <string>arm64</string>
+                </array>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.4.0</string>
+    <key>ParentRecipe</key>
+    <string>munkitest-hv.pkg.dockerdesktoparm64</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pathname%</string>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+        </dict>
+    </array>
+</dict>
+</plist>
